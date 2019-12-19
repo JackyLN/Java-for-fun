@@ -1,0 +1,10 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ReceiptGenerator",
+      "request": "launch",
+      "mainClass": "coursework1.ReceiptGenerator"
+    }
+  ]
+}
