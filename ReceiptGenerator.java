@@ -359,7 +359,7 @@ public class ReceiptGenerator {
 
 	private static String capitaliseException(String s) {
 		if (s.compareToIgnoreCase("a") == 0 || s.compareToIgnoreCase("an") == 0 || s.compareToIgnoreCase("and") == 0
-				|| s.compareToIgnoreCase("with") == 0 || s.compareToIgnoreCase("with") == 0) {
+				|| s.compareToIgnoreCase("the") == 0 || s.compareToIgnoreCase("with") == 0) {
 			return s.toLowerCase();
 		} else {
 			return capitalise(s);
